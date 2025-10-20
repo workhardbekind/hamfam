@@ -116,7 +116,6 @@ function App() {
                 availabilities={availabilities}
                 selectedMember={selectedMember}
                 onAddAvailability={addAvailability}
-                onRemoveAvailability={removeAvailability}
               />
             </div>
           </div>

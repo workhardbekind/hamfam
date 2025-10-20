@@ -1,4 +1,4 @@
-import { format, isSameDay } from 'date-fns';
+import { format } from 'date-fns';
 import { Calendar, Trash2, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -42,7 +42,7 @@ export function AvailabilityList({
 
   const getCommonDates = () => {
     const dateGroups = Object.entries(groupedByDate).filter(
-      ([_, avails]) => avails.length > 1
+      ([, avails]) => avails.length > 1
     );
     return dateGroups;
   };
