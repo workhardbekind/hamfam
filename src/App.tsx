@@ -129,15 +129,7 @@ function App() {
               onUpdateAvailability={updateAvailability}
             />
           </div>
-          <div className="container mx-auto px-4 py-4 max-w-7xl"><div className="flex items-center justify-between"><p>🎵 Made by <a href="https://github.com/workhardbekind/hamfam">workhardbekind</a>  💨</p><p className="mt-2"><script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-<script>
-  kofiWidgetOverlay.draw('districtdave', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support me',
-    'floating-chat.donateButton.background-color': '#00b9fe',
-    'floating-chat.donateButton.text-color': '#fff'
-  });
-</script></p></div></div>
+          <div className="container mx-auto px-4 py-4 max-w-7xl"><div className="flex items-center justify-between"><p>🎵 Made by <a href="https://github.com/workhardbekind/hamfam">workhardbekind</a>  💨</p><p className="mt-2"><a href="https://ko-fi.com/districtdave">Buy Dave a Coffee</a></p></div></div>
         </main>
 
         <Toaster />
