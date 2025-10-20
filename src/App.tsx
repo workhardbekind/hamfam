@@ -129,8 +129,10 @@ function App() {
               onUpdateAvailability={updateAvailability}
             />
           </div>
+          <div className="mt-6">
           <p>🎵 Made by <a href="https://github.com/workhardbekind/fartsy">workhardbekind</a>  💨</p>
           <p className="mt-2"><a href="https://ko-fi.com/districtdave">Buy Dave a Coffee</a></p>
+          </div>
         </main>
 
         <Toaster />
