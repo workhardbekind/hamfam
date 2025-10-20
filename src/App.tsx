@@ -129,7 +129,7 @@ function App() {
               onUpdateAvailability={updateAvailability}
             />
           </div>
-          <div class="container mx-auto px-4 py-4 max-w-7xl"><div class="flex items-center justify-between"><p>🎵 Made by <a href="https://github.com/workhardbekind/fartsy">workhardbekind</a>  💨</p><p class="mt-2"><a href="https://ko-fi.com/districtdave">Buy Dave a Coffee</a></p></div></div>
+          <div className="container mx-auto px-4 py-4 max-w-7xl"><div className="flex items-center justify-between"><p>🎵 Made by <a href="https://github.com/workhardbekind/fartsy">workhardbekind</a>  💨</p><p className="mt-2"><a href="https://ko-fi.com/districtdave">Buy Dave a Coffee</a></p></div></div>
         </main>
 
         <Toaster />
