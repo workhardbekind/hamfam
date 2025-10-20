@@ -16,7 +16,6 @@ interface CalendarProps {
   availabilities: Availability[];
   selectedMember: string | null;
   onAddAvailability: (availability: Omit<Availability, 'id'>) => void;
-  onRemoveAvailability: (id: string) => void;
 }
 
 export function Calendar({
@@ -24,7 +23,6 @@ export function Calendar({
   availabilities,
   selectedMember,
   onAddAvailability,
-  onRemoveAvailability,
 }: CalendarProps) {
   const [currentMonth, setCurrentMonth] = useState(new Date());
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);

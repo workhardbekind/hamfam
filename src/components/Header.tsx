@@ -1,4 +1,4 @@
-import { Calendar as CalendarIcon, Users, Download, Share2 } from 'lucide-react';
+import { Calendar as CalendarIcon, Download, Share2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ModeToggle } from '@/components/mode-toggle';
 import {
